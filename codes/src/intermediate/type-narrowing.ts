@@ -26,6 +26,7 @@ type Square = {
   size: number;
 };
 
+// @ts-ignore
 type Rectangle = {
   width: number;
   height: number;

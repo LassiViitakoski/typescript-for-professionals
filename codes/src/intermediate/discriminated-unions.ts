@@ -44,10 +44,10 @@ type ValidationResult = ValidationSuccess | ValidationFailure;
 const logResult = (result: ValidationResult) => {
   switch (result.isValid) {
     case true:
-      console.log('Success, validated value:', result.validatedValue);
+      console.log("Success, validated value:", result.validatedValue);
       break;
     case false:
-      console.error('Failure, error reason:', result.errorReason);
+      console.error("Failure, error reason:", result.errorReason);
       break;
   }
 };
